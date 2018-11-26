@@ -1,0 +1,14 @@
+C:\Users\Vlad\RiderProjects\ThirdL\ThirdL\bin\Debug\netcoreapp2.1\ThirdL.deps.json
+C:\Users\Vlad\RiderProjects\ThirdL\ThirdL\bin\Debug\netcoreapp2.1\ThirdL.runtimeconfig.json
+C:\Users\Vlad\RiderProjects\ThirdL\ThirdL\bin\Debug\netcoreapp2.1\ThirdL.runtimeconfig.dev.json
+C:\Users\Vlad\RiderProjects\ThirdL\ThirdL\bin\Debug\netcoreapp2.1\ThirdL.dll
+C:\Users\Vlad\RiderProjects\ThirdL\ThirdL\bin\Debug\netcoreapp2.1\ThirdL.pdb
+C:\Users\Vlad\RiderProjects\ThirdL\ThirdL\obj\Debug\netcoreapp2.1\ThirdL.csprojAssemblyReference.cache
+C:\Users\Vlad\RiderProjects\ThirdL\ThirdL\obj\Debug\netcoreapp2.1\ThirdL.csproj.CoreCompileInputs.cache
+C:\Users\Vlad\RiderProjects\ThirdL\ThirdL\obj\Debug\netcoreapp2.1\ThirdL.RazorAssemblyInfo.cache
+C:\Users\Vlad\RiderProjects\ThirdL\ThirdL\obj\Debug\netcoreapp2.1\ThirdL.RazorAssemblyInfo.cs
+C:\Users\Vlad\RiderProjects\ThirdL\ThirdL\obj\Debug\netcoreapp2.1\ThirdL.AssemblyInfoInputs.cache
+C:\Users\Vlad\RiderProjects\ThirdL\ThirdL\obj\Debug\netcoreapp2.1\ThirdL.AssemblyInfo.cs
+C:\Users\Vlad\RiderProjects\ThirdL\ThirdL\obj\Debug\netcoreapp2.1\ThirdL.RazorTargetAssemblyInfo.cache
+C:\Users\Vlad\RiderProjects\ThirdL\ThirdL\obj\Debug\netcoreapp2.1\ThirdL.dll
+C:\Users\Vlad\RiderProjects\ThirdL\ThirdL\obj\Debug\netcoreapp2.1\ThirdL.pdb
