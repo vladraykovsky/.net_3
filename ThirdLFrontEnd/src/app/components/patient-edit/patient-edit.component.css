@@ -1,0 +1,116 @@
+.container {
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.edit-patient {
+  padding: 10px;
+  font: 20px 'trebuchet MS', 'lucida sans';
+}
+
+.patient-edit-form {
+  width: 800px;
+}
+
+.patient-name {
+  width: 100%;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.patient-surname {
+  width: 100%;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.patient-date-of-birth {
+  width: 100%;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.patient-country {
+  width: 100%;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.patient-region {
+  width: 100%;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.patient-gender {
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.space {
+  padding-bottom: 20px;
+}
+
+
+.btn {
+  position: relative;
+
+  display: block;
+  padding: 0;
+
+  overflow: hidden;
+
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+
+  background-color: #78a5eb;
+  color: #ecf0f1;
+
+  transition: background-color .3s;
+}
+
+.btn:hover, .btn:focus {
+  background-color: #87ceeb;
+}
+
+.btn > * {
+  position: relative;
+}
+
+.btn span {
+  display: block;
+  padding: 12px 24px;
+}
+
+.btn:before {
+  content: "";
+
+
+  display: block;
+  width: 0;
+  padding-top: 0;
+
+  border-radius: 100%;
+
+  background-color: rgba(236, 240, 241, .3);
+
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.btn:active:before {
+  width: 120%;
+  padding-top: 120%;
+
+  transition: width .2s ease-out, padding-top .2s ease-out;
+}
+
+/* Styles, not important */
+*, *:before, *:after {
+  box-sizing: border-box;
+}

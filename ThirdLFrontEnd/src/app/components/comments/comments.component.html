@@ -1,0 +1,27 @@
+
+<div class="container">
+  <div class="comment-label">Comments</div>
+<div class="comments-list">
+<div *ngFor="let comment of comments">
+  <div class="comment">
+    <div class="comment-border">
+    <div class="comment-remove">
+      <div class="comment-creation-date">Creation Date: {{comment.creationData}}</div>
+      <button class="remove" (click)="removeComment(comment)">x</button>
+    </div>
+    <div class="comment-value">
+      <div class="comment-value-itself">{{comment.value}}</div>
+      <!--<div class="comment-creation-date">{{comment.creationData}}</div>-->
+      <div class="created-by">Created By: {{comment.firstName}} {{comment.lastName}}</div>
+    </div>
+    </div>
+  </div>
+  </div>
+</div>
+  <div class="comment-input-container">
+    <div class="add-comment" (click)="addComment(commentValue)">
+      add comment
+    </div>
+    <input class="comment-input" [(ngModel)]="commentValue" />
+  </div>
+</div>

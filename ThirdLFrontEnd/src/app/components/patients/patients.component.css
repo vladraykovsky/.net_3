@@ -1,0 +1,152 @@
+.main-tab {
+  width: 100%;
+  height: 60px;
+  background: #809bff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.li-elem {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.current-patient {
+  display: inline-block;
+  padding-top: 10px;
+  padding-left: 40px;
+  color: white;
+  font: 20px 'trebuchet MS', 'lucida sans';
+}
+
+
+.column {
+  float: left;
+  width: 25%;
+}
+.column-2 {
+  float: left;
+}
+.row {
+  padding-left: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.patient-list {
+  width:300px;
+
+}
+.patient-list ol{
+  counter-reset: li;
+  list-style: none;
+  *list-style: decimal;
+  font: 15px 'trebuchet MS', 'lucida sans';
+  padding: 0;
+  margin-bottom: 4em;
+
+}
+.patient-list ol ol{
+  margin: 0 0 0 2em;
+}
+
+.patient-list a{
+  position: relative;
+  display: block;
+  padding: .4em .4em .4em 2em;
+  *padding: .4em;
+  margin: .5em 0;
+  background: #FFF;
+  color: #444;
+  text-decoration: none;
+  -moz-border-radius: .3em;
+  -webkit-border-radius: .3em;
+  border-radius: .3em;
+}
+
+.patient-list a:hover{
+  text-decoration: none;
+  background: #cbe7f8;
+}
+.patient-list a:before{
+  text-decoration: none;
+  content: counter(li);
+  counter-increment: li;
+  position: absolute;
+  left: -1.3em;
+  top: 50%;
+  margin-top: -1.3em;
+  background: #87ceeb;
+  height: 2em;
+  width: 2em;
+  line-height: 2em;
+  border: .3em solid #fff;
+  text-align: center;
+  font-weight: bold;
+  -moz-border-radius: 2em;
+  -webkit-border-radius: 2em;
+  border-radius: 2em;
+  color:#FFF;
+}
+
+
+.add-patient{
+  display: inline-block;
+  cursor: pointer;
+  background: white;
+  color: black;
+  padding: 5px;
+  border-radius: 7px;
+  margin: 7px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-left: 40px;
+  margin-top: 15px;
+
+}
+
+.add-patient:hover {
+  background: #d0d4ff;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.add-patient-link {
+  color: black;
+  text-decoration: none;
+}
+
+.patient-name-surname {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width:140px !important;
+  display: inline-block;
+}
+.icons {
+  width: 100px;
+  margin-left: 20px;
+  display: inline-block;
+}
+
+.fa-wrench {
+  margin-right: 20px;
+  float: right;
+}
+
+.fa-times {
+  margin-right: 20px;
+  float: right;
+}
+
+
+.fa-wrench:hover {
+  color: green;
+  cursor: pointer;
+}
+
+.fa-times:hover {
+  color: red;
+  cursor: pointer;
+}

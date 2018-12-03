@@ -1,0 +1,27 @@
+<div class="container">
+<!--<div class="main-tab">
+  <div class="add-patient">
+    <a class="add-patient-link" routerLink="add">
+      add patient
+    </a>
+  </div>
+</div> -->
+<div class="row">
+  <div class="column">
+     <div class="patient-list">
+       <ol>
+       <li class="li-elem" *ngFor="let patient of patients" [routerLink]="[patient.id]">
+            <a>
+              <div class="patient-name-surname">{{patient.name}} {{patient.surname}}
+              </div>
+            </a>
+
+       </li>
+       </ol>
+     </div>
+  </div>
+  <div class="column-2">
+    <router-outlet></router-outlet>
+  </div>
+</div>
+</div>

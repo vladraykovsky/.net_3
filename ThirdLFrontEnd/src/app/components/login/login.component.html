@@ -1,0 +1,22 @@
+
+<div class="container">
+  <div class="healthcare">
+    Healthcare
+  </div>
+  <div class="box">
+    <input type="text"  [(ngModel)]="login" class="email"  placeholder="login"/>
+
+    <input type="password" [(ngModel)]="password" class="email" placeholder="password"/>
+
+    <div class="space">
+      <select class="patient-region" [(ngModel)]="userType">
+        <option *ngFor="let c of selectedTypes" [ngValue]="c">{{c}}</option>
+      </select>
+    </div>
+
+    <button class="btn" (click)="loginPatient()">Sign In</button> <!-- End Btn -->
+
+    <button id="btn2" (click)="signUp()">Sign Up</button> <!-- End Btn2 -->
+  </div> <!-- End Box -->
+
+</div>

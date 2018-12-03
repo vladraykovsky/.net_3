@@ -1,0 +1,19 @@
+.container{
+  padding: 20px 20px 20px 20px;
+  font: 15px 'trebuchet MS', 'lucida sans';
+}
+.patient-info {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  float: left;
+  width: 300px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.patient-info-container {
+  padding: 10px 20px 20px 20px;
+}
+
+.patient-comments {
+  float: left;
+}

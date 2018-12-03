@@ -1,0 +1,34 @@
+
+<div class="container">
+  <div class="add-patient">Add Patient</div>
+  <div class="patient-add-form">
+    <div class="space">
+      <input class="patient-name" [(ngModel)]="patient.name" placeholder="patient name"/>
+    </div>
+    <div class="space">
+      <input class="patient-surname" [(ngModel)]="patient.surname" placeholder="patient surname"/>
+    </div>
+    <div class="space">
+      <input class="patient-surname" [(ngModel)]="patient.login" placeholder="patient login"/>
+    </div>
+    <div class="space">
+      <input type="password" class="patient-surname" [(ngModel)]="patient.password" placeholder="patient password"/>
+    </div>
+    <div class="space">
+      <input class="patient-date-of-birth"  type="date" [(ngModel)]="patient.dateOfBirth" placeholder="patient date of birth"/>
+    </div>
+    <div class="space">
+      <input class="patient-country" [(ngModel)]="patient.country" placeholder="patient country">
+    </div>
+    <div class="space">
+      <input class="patient-region" [(ngModel)]="patient.region" placeholder="patient region">
+    </div>
+    <div class="space">
+      <select class="patient-region" [(ngModel)]="patient.gender" placeholder="patient region">
+        <option [ngValue]="0">male</option>
+        <option [ngValue]="1">female</option>
+      </select>
+    </div>
+    <button class="btn" type="button" (click)="addPatient()"><span>Add</span></button>
+  </div>
+  </div>

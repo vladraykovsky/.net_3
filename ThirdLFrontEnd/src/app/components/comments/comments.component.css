@@ -1,0 +1,85 @@
+
+
+
+
+.container {
+  border-radius: 5px;
+  width: 400px;
+  background: #87ceeb;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.comment-label {
+  padding: 10px;
+  font: 20px 'trebuchet MS', 'lucida sans';
+}
+
+.comment {
+  padding: 20px;
+  background: #87ceeb;
+}
+
+.comment-remove {
+  height: 20px;
+  background: #87ceeb;
+}
+.remove {
+  float: right;
+}
+
+.comment-value {
+  border-top: solid;
+  border-color: #6b6974;
+  background: aliceblue;
+}
+.comment-border {
+  border-top: solid;
+  border-bottom: solid;
+  border-left: solid;
+  border-right: solid;
+  border-color: #6b6974;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.comment-creation-date{
+  /*padding: 5px;*/
+  float: left;
+}
+
+.comment-value-itself {
+  padding: 20px;
+}
+.created-by {
+  font-size: small;
+  background: #92bfeb;
+}
+
+.comment-input-container{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px;
+}
+.comment-input {
+  width: 225px;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.add-comment{
+  display: inline-block;
+  cursor: pointer;
+  background: aliceblue;
+  padding: 5px;
+  border-radius: 7px;
+  margin: 7px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.add-comment:hover {
+  background: #d0d4ff;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.comments-list {
+  height: 350px;
+  overflow-y: scroll;
+}

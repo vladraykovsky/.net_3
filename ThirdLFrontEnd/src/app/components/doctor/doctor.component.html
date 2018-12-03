@@ -1,0 +1,14 @@
+
+<div class="container">
+<div class="info" *ngIf="doctor!==undefined">
+  {{doctor.name}} {{doctor.surname}}
+</div>
+
+<div *ngIf="doctor!==undefined">
+  <div class="no-patients" *ngIf="doctor.patients.length === 0">
+    you have no patients
+  </div>
+  <app-patients [patients]="doctor.patients"></app-patients>
+</div>
+</div>
+

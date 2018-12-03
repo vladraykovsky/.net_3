@@ -1,0 +1,31 @@
+
+<div class="container">
+<div class="patient-info" *ngIf="patient != undefined">
+ <div class="patient-info-container">
+  <div>
+    Name:  {{patient.name}}
+  </div>
+  <div>
+    Surname: {{patient.surname}}
+  </div>
+  <div>
+    Date Of Birth: {{patient.dateOfBirth}}
+  </div>
+  <div>
+    Country: {{patient.country}}
+  </div>
+  <div>
+    Region: {{patient.region}}
+  </div>
+  <div *ngIf="patient.gender === 0">
+    Gender: M
+    </div>
+   <div *ngIf="patient.gender === 1">
+     Gender: F
+   </div>
+ </div>
+</div>
+  <div class="patient-comments" *ngIf="patient != undefined">
+    <app-comments [comments]="patient.comments"></app-comments>
+  </div>
+</div>
